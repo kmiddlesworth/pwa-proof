@@ -5,6 +5,13 @@ var app = express();
 
 app.use(express.static('public'));	
 
+
+app.get('/manifest.json', function(req, res){
+  
+  res.sendFile(__dirname + '/manifest.json');
+
+});
+
 app.listen(process.env.PORT || 3000, function () {
 	console.log('Example app listening on port 3000!')
-})
+});
