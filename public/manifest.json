@@ -2,7 +2,7 @@
   "name": "PWA Test",
   "short_name": "A POC using some PWAish technology",
   "lang": "en-US",
-  "start_url": "/?homescreen=true",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "icons": [
